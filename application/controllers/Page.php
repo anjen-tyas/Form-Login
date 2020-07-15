@@ -7,4 +7,5 @@ class Page extends MY_Controller {
   public function thanks(){
     $this->load->view('thanks');
   }
+  
 }

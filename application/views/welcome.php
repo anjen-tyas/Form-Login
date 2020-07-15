@@ -24,7 +24,7 @@
   <h1 class="text-blue-900 mb">Hello, <?php echo $this->session->userdata('nama'); ?></h1>
   <h4 class="text-blue-900 mb">Anda berhasil login ke dalam aplikasi.</h4>
 </br>
-  <a href="<?php echo base_url('index.php/page/thanks') ?>">Thanks Page</a> |
-  <a href="<?php echo base_url('index.php/auth/logout') ?>">Logout</a>
+<a href="<?php echo base_url('index.php/siswa/index') ?>">Lihat Data Siswa</a> |
+<a href="<?php echo base_url('index.php/auth/logout') ?>">Logout</a>
 </body>
 </html>

@@ -5,5 +5,6 @@ class MY_Controller extends CI_Controller{
         // Cek apakah terdapat session dengan nama authenticated
         if( ! $this->session->userdata('authenticated')) // Jika tidak ada
             redirect('auth'); // Redirect ke halaman login
+        
     }
 }
